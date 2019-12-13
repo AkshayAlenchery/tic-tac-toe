@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+body {
+  background: #13bdac;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#player-popup {
+  display: block;
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  margin: 200px auto;
+  border-radius: 3px;
+}
+
+#player-popup h2 {
+  margin-top: 0;
+}
+
+#player-popup div {
+  margin-bottom: 10px;
+}
+
+#player-popup div:last-child {
+  margin-bottom: 0;
+}
+
+#player-popup div label {
+  font-size: 0.9em;
+}
+
+#player-popup div input {
+  margin-top: 10px;
+  padding: 7px;
+  width: 280px;
+  font-size: 1em;
+}
+
+#player-popup button {
+  padding: 7px;
+  background: #0ca192;
+  border: 1px solid #0ca192;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+#board {
+  display: none;
+  margin: 200px auto;
+  text-align: center;
+  width: 310px;
+}
+
+#board table {
+  border-collapse: collapse;
+}
+
+#board table td {
+  width: 100px;
+  height: 100px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#board table tr {
+  border-bottom: 5px solid #0ca192;
+}
+
+#board table tr td {
+  border-right: 5px solid #0ca192;
+}
+
+#board table tr:last-child {
+  border-bottom: none;
+}
+
+#board table tr td:last-child {
+  border-right: none;
+}
+
+#turn {
+  margin-bottom: 50px;
+  color: #333;
+}
+
+#result {
+  display: none;
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  margin: 200px auto;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#result h1,
+#result h2 {
+  margin: 0;
+}
+
+#result button {
+  padding: 7px;
+  background: #0ca192;
+  border: 1px solid #0ca192;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.9em;
+  cursor: pointer;
+  margin-top: 20px;
+}
